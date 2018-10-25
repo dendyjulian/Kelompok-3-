@@ -13,10 +13,10 @@ pengguna atau pecinta novel dimudahkan dengan adanya sinopsis novel dan
 
 
 ## Screenshoots
-![Layar Login] (https://github.com/dendyjulian/Kelompok-3-/blob/master/image/Login.jpeg)
-![Layar CRUD] (https://github.com/dendyjulian/Kelompok-3-/blob/master/image/CRUD.jpeg)
-![Layar Detail] (https://github.com/dendyjulian/Kelompok-3-/blob/master/image/Detail.jpeg)
-![Layar Recyclerview] (https://github.com/dendyjulian/Kelompok-3-/blob/master/image/RecyclerView.jpeg)
+![Layar Login](https://github.com/dendyjulian/Kelompok-3-/blob/master/image/Login.jpeg)
+![Layar CRUD](https://github.com/dendyjulian/Kelompok-3-/blob/master/image/CRUD.jpeg)
+![Layar Detail](https://github.com/dendyjulian/Kelompok-3-/blob/master/image/Detail.jpeg)
+![Layar Recyclerview](https://github.com/dendyjulian/Kelompok-3-/blob/master/image/RecyclerView.jpeg)
 
 
 ## Android OS dan Level
