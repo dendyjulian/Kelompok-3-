@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertNovel">
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Judul" />
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView2"
+        android:layout_alignStart="@+id/TextView2"
+        android:inputType="text">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/EditText2"
+        android:text="Penulis" />
+    <EditText
+        android:id="@+id/EditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/TextView3"
+        android:layout_below="@+id/TextView3"
+        android:inputType="text">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/EditText3"
+        android:text="Penerbit" />
+    <EditText
+        android:id="@+id/EditText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/TextView4"
+        android:layout_below="@+id/TextView4"
+        android:inputType="text">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/EditText4"
+        android:text="Tahun Rilis" />
+    <EditText
+        android:id="@+id/EditText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/TextView5"
+        android:layout_below="@+id/TextView5"
+        android:inputType="text">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/EditText5"
+        android:text="Sinopsis" />
+    <EditText
+        android:id="@+id/EditText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/TextView6"
+        android:layout_below="@+id/TextView6"
+        android:inputType="text">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/EditText6"
+        android:layout_alignParentBottom="true"
+        android:text="Simpan" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Kembali" />
+
+</RelativeLayout>
