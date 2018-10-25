@@ -35,7 +35,7 @@ min Sdk version yang di gunakan adalah 28
 + NovelActivity.java
 + class ini berisi script untuk menampilkan atau melakukan view novel
 + RecyclerViewAdapter.java
-+ class ini berfungsi mengatur tampilan recycler view
++ class ini berfungsi menghubungkan antara recycler dengan data yang akan di gunakan
 + TampilActivity.java
 + class ini berfungsi untuk menampilkan pop up pilihan
 + UpdateNovel.java
