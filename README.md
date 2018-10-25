@@ -40,3 +40,11 @@ min Sdk version yang di gunakan adalah 28
 + class ini berfungsi untuk menampilkan pop up pilihan
 + UpdateNovel.java
 + class ini berfungsi untuk melakukan update data
+
+
+## Referensi
+*[Stackovrflow](https://stackoverflow.com/)-web sharing
+
+
+## Lisensi
+Group3 - MI3C
